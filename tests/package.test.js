@@ -29,6 +29,13 @@ describe('User Model Test', () => {
             }
         })
     })
+    
+    it('Create Package', async () => {
+        const packageModel = new Packages(exampleData);
+        const savedPackages = await packageModel.save();
+        expect(savedPackages._id).toBeDefined();
+        expect(savedPackages.transaction_id).toBe(exampleData.transaction_id);
+    });
 
     it('Get Single Package Data', async () => {
         const packages = await Packages.findOne({
@@ -46,13 +53,6 @@ describe('User Model Test', () => {
               })
             ])
         )
-    });
-
-    it('Create Package', async () => {
-        const packageModel = new Packages(exampleData);
-        const savedPackages = await packageModel.save();
-        expect(savedPackages._id).toBeDefined();
-        expect(savedPackages.transaction_id).toBe(exampleData.transaction_id);
     });
 })
   
