@@ -6,7 +6,7 @@ Please follow these steps if you want to run this application.This Project use :
 
 ## Install MongoDB
 
-install the latest version of MongoDB Community Edition first.
+Install the latest version of MongoDB Community Edition first.
 
 https://docs.mongodb.com/manual/installation/
 
