@@ -1,5 +1,8 @@
 # Setup
-Please follow these steps if you want to run this application
+Please follow these steps if you want to run this application.This Project use :
+
+ - Node version : 8.7.0
+ - MongoDB 4.2.0 Community
 
 ## Install MongoDB
 
