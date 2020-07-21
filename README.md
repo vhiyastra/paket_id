@@ -45,4 +45,7 @@ Open up your browser and head over to:
 
 [http://localhost:3000/package](http://localhost:3000/package)
 
+## Documentation
+[https://explore.postman.com/paketid](https://explore.postman.com/paketid)
+
 
