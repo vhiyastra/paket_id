@@ -32,7 +32,7 @@ All tests should pass.
 ## Start the Server
 
 ```bash
-node index.js
+npm start
 ```
 or
 ```bash
